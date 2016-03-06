@@ -1,0 +1,10 @@
+{
+	"name":"web-api-homework-2",
+	"version":"0.0.0",
+	"description":"Homework 2 for web-api class",
+	"main":"app.js",
+	"dependencies":{
+		"express":"x.x.x",
+		"underscore":"x.x.x"
+	}
+}
