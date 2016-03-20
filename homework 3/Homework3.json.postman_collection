@@ -1,0 +1,781 @@
+{
+	"id": "09bf1d41-8a05-add9-8a92-fc457f0bfd5b",
+	"name": "Homework3",
+	"description": "Here is my homework3.",
+	"order": [
+		"ffd1d7ae-f2f7-9f6c-2212-f1993024eb4a"
+	],
+	"folders": [],
+	"timestamp": 1458345695190,
+	"owner": "319259",
+	"remoteLink": "",
+	"public": false,
+	"requests": [
+		{
+			"id": "ffd1d7ae-f2f7-9f6c-2212-f1993024eb4a",
+			"headers": "Cache-Control: no-cache\nPostman-Token: c9a5af90-e17d-ae05-fe54-9ff18f331764\n",
+			"url": "http://flyingpenguin-test.apigee.net/homework3/oauth/users/scott-meyer",
+			"preRequestScript": null,
+			"pathVariables": {},
+			"method": "GET",
+			"data": [
+				{
+					"key": "client_id",
+					"value": "EoHT9DUGHA8cyaEctaqjOjQNllSJkA4n"
+				},
+				{
+					"key": "client_secret",
+					"value": "0OSt6LivA600UCqf"
+				}
+			],
+			"dataMode": "params",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1458439736771,
+			"name": "HW3, Responces",
+			"description": "Different things as saves.",
+			"collectionId": "09bf1d41-8a05-add9-8a92-fc457f0bfd5b",
+			"responses": [
+				{
+					"status": "",
+					"responseCode": {
+						"code": 200,
+						"name": "OK",
+						"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+					},
+					"time": 113,
+					"headers": [
+						{
+							"name": "Access-Control-Allow-Origin",
+							"key": "Access-Control-Allow-Origin",
+							"value": "*",
+							"description": "Specifies a URI that may access the resource. For requests without credentials, the server may specify '*' as a wildcard, thereby allowing any origin to access the resource."
+						},
+						{
+							"name": "Access-Control-Expose-Headers",
+							"key": "Access-Control-Expose-Headers",
+							"value": "ETag, Link, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval",
+							"description": "Lets a server whitelist headers that browsers are allowed to access."
+						},
+						{
+							"name": "Cache-Control",
+							"key": "Cache-Control",
+							"value": "public, max-age=60, s-maxage=60",
+							"description": "Tells all caching mechanisms from server to client whether they may cache this object. It is measured in seconds"
+						},
+						{
+							"name": "Connection",
+							"key": "Connection",
+							"value": "keep-alive",
+							"description": "Options that are desired for the connection"
+						},
+						{
+							"name": "Content-Encoding",
+							"key": "Content-Encoding",
+							"value": "gzip",
+							"description": "The type of encoding used on the data."
+						},
+						{
+							"name": "Content-Security-Policy",
+							"key": "Content-Security-Policy",
+							"value": "default-src 'none'",
+							"description": "Custom header"
+						},
+						{
+							"name": "Content-Type",
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8",
+							"description": "The mime type of this content"
+						},
+						{
+							"name": "Date",
+							"key": "Date",
+							"value": "Sun, 20 Mar 2016 01:49:09 GMT",
+							"description": "The date and time that the message was sent"
+						},
+						{
+							"name": "ETag",
+							"key": "ETag",
+							"value": "W/\"ab60d1f42967aaa9d2a87f413c101c8f\"",
+							"description": "An identifier for a specific version of a resource, often a message digest"
+						},
+						{
+							"name": "Last-Modified",
+							"key": "Last-Modified",
+							"value": "Wed, 09 Mar 2016 19:34:18 GMT",
+							"description": "The last modified date for the requested object, in RFC 2822 format"
+						},
+						{
+							"name": "Server",
+							"key": "Server",
+							"value": "GitHub.com",
+							"description": "A name for the server"
+						},
+						{
+							"name": "Status",
+							"key": "Status",
+							"value": "200 OK",
+							"description": "Custom header"
+						},
+						{
+							"name": "Strict-Transport-Security",
+							"key": "Strict-Transport-Security",
+							"value": "max-age=31536000; includeSubdomains; preload",
+							"description": "A HSTS Policy informing the HTTP client how long to cache the HTTPS only policy and whether this applies to subdomains."
+						},
+						{
+							"name": "Transfer-Encoding",
+							"key": "Transfer-Encoding",
+							"value": "chunked",
+							"description": "The form of encoding used to safely transfer the entity to the user. Currently defined methods are: chunked, compress, deflate, gzip, identity."
+						},
+						{
+							"name": "Vary",
+							"key": "Vary",
+							"value": "Accept, Accept-Encoding",
+							"description": "Tells downstream proxies how to match future request headers to decide whether the cached response can be used rather than requesting a fresh one from the origin server."
+						},
+						{
+							"name": "X-Content-Type-Options",
+							"key": "X-Content-Type-Options",
+							"value": "nosniff",
+							"description": "The only defined value, \"nosniff\", prevents Internet Explorer from MIME-sniffing a response away from the declared content-type"
+						},
+						{
+							"name": "X-Frame-Options",
+							"key": "X-Frame-Options",
+							"value": "deny",
+							"description": "Clickjacking protection: \"deny\" - no rendering within a frame, \"sameorigin\" - no rendering if origin mismatch"
+						},
+						{
+							"name": "X-GitHub-Media-Type",
+							"key": "X-GitHub-Media-Type",
+							"value": "github.v3",
+							"description": "Custom header"
+						},
+						{
+							"name": "X-GitHub-Request-Id",
+							"key": "X-GitHub-Request-Id",
+							"value": "36D13CAB:36CA:464B9FA:56EE0195",
+							"description": "Custom header"
+						},
+						{
+							"name": "X-RateLimit-Limit",
+							"key": "X-RateLimit-Limit",
+							"value": "60",
+							"description": "Custom header"
+						},
+						{
+							"name": "X-RateLimit-Remaining",
+							"key": "X-RateLimit-Remaining",
+							"value": "42",
+							"description": "Custom header"
+						},
+						{
+							"name": "X-RateLimit-Reset",
+							"key": "X-RateLimit-Reset",
+							"value": "1458439773",
+							"description": "Custom header"
+						},
+						{
+							"name": "X-Served-By",
+							"key": "X-Served-By",
+							"value": "bd82876e9bf04990f289ba22f246ee9b",
+							"description": "Custom header"
+						},
+						{
+							"name": "X-XSS-Protection",
+							"key": "X-XSS-Protection",
+							"value": "1; mode=block",
+							"description": "Cross-site scripting (XSS) filter"
+						}
+					],
+					"cookies": [],
+					"mime": "",
+					"text": "{\n  \"login\": \"Scott-Meyer\",\n  \"id\": 17101862,\n  \"avatar_url\": \"https://avatars.githubusercontent.com/u/17101862?v=3\",\n  \"gravatar_id\": \"\",\n  \"url\": \"https://api.github.com/users/Scott-Meyer\",\n  \"html_url\": \"https://github.com/Scott-Meyer\",\n  \"followers_url\": \"https://api.github.com/users/Scott-Meyer/followers\",\n  \"following_url\": \"https://api.github.com/users/Scott-Meyer/following{/other_user}\",\n  \"gists_url\": \"https://api.github.com/users/Scott-Meyer/gists{/gist_id}\",\n  \"starred_url\": \"https://api.github.com/users/Scott-Meyer/starred{/owner}{/repo}\",\n  \"subscriptions_url\": \"https://api.github.com/users/Scott-Meyer/subscriptions\",\n  \"organizations_url\": \"https://api.github.com/users/Scott-Meyer/orgs\",\n  \"repos_url\": \"https://api.github.com/users/Scott-Meyer/repos\",\n  \"events_url\": \"https://api.github.com/users/Scott-Meyer/events{/privacy}\",\n  \"received_events_url\": \"https://api.github.com/users/Scott-Meyer/received_events\",\n  \"type\": \"User\",\n  \"site_admin\": false,\n  \"name\": \"Scott Meyer\",\n  \"company\": null,\n  \"blog\": null,\n  \"location\": \"Denver, Colorado, UnitedStates\",\n  \"email\": null,\n  \"hireable\": null,\n  \"bio\": null,\n  \"public_repos\": 3,\n  \"public_gists\": 0,\n  \"followers\": 0,\n  \"following\": 0,\n  \"created_at\": \"2016-02-06T20:09:54Z\",\n  \"updated_at\": \"2016-03-09T19:34:18Z\"\n}\n",
+					"language": "javascript",
+					"rawDataType": "text",
+					"previewType": "html",
+					"searchResultScrolledTo": -1,
+					"forceNoPretty": false,
+					"write": true,
+					"empty": false,
+					"failed": false,
+					"state": {
+						"size": "normal"
+					},
+					"id": "5efc22a1-7e1f-344e-86ae-a3b0b35f47b9",
+					"name": "No-Oauth",
+					"request": {
+						"url": "http://flyingpenguin-test.apigee.net/homework3/users/scott-meyer",
+						"headers": [
+							{
+								"key": "Cache-Control",
+								"name": "Cache-Control",
+								"value": "no-cache"
+							},
+							{
+								"key": "Postman-Token",
+								"name": "Postman-Token",
+								"value": "502896b4-0dab-f54e-be05-bf67f2fa24dd"
+							}
+						],
+						"data": "",
+						"method": "GET",
+						"dataMode": "params"
+					}
+				},
+				{
+					"status": "",
+					"responseCode": {
+						"code": 200,
+						"name": "OK",
+						"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+					},
+					"time": 137,
+					"headers": [
+						{
+							"name": "Access-Control-Allow-Origin",
+							"key": "Access-Control-Allow-Origin",
+							"value": "*",
+							"description": "Specifies a URI that may access the resource. For requests without credentials, the server may specify '*' as a wildcard, thereby allowing any origin to access the resource."
+						},
+						{
+							"name": "Access-Control-Expose-Headers",
+							"key": "Access-Control-Expose-Headers",
+							"value": "ETag, Link, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval",
+							"description": "Lets a server whitelist headers that browsers are allowed to access."
+						},
+						{
+							"name": "Cache-Control",
+							"key": "Cache-Control",
+							"value": "public, max-age=60, s-maxage=60",
+							"description": "Tells all caching mechanisms from server to client whether they may cache this object. It is measured in seconds"
+						},
+						{
+							"name": "Connection",
+							"key": "Connection",
+							"value": "keep-alive",
+							"description": "Options that are desired for the connection"
+						},
+						{
+							"name": "Content-Encoding",
+							"key": "Content-Encoding",
+							"value": "gzip",
+							"description": "The type of encoding used on the data."
+						},
+						{
+							"name": "Content-Security-Policy",
+							"key": "Content-Security-Policy",
+							"value": "default-src 'none'",
+							"description": "Custom header"
+						},
+						{
+							"name": "Content-Type",
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8",
+							"description": "The mime type of this content"
+						},
+						{
+							"name": "Date",
+							"key": "Date",
+							"value": "Sun, 20 Mar 2016 01:50:09 GMT",
+							"description": "The date and time that the message was sent"
+						},
+						{
+							"name": "ETag",
+							"key": "ETag",
+							"value": "W/\"ab60d1f42967aaa9d2a87f413c101c8f\"",
+							"description": "An identifier for a specific version of a resource, often a message digest"
+						},
+						{
+							"name": "Last-Modified",
+							"key": "Last-Modified",
+							"value": "Wed, 09 Mar 2016 19:34:18 GMT",
+							"description": "The last modified date for the requested object, in RFC 2822 format"
+						},
+						{
+							"name": "Server",
+							"key": "Server",
+							"value": "GitHub.com",
+							"description": "A name for the server"
+						},
+						{
+							"name": "Status",
+							"key": "Status",
+							"value": "200 OK",
+							"description": "Custom header"
+						},
+						{
+							"name": "Strict-Transport-Security",
+							"key": "Strict-Transport-Security",
+							"value": "max-age=31536000; includeSubdomains; preload",
+							"description": "A HSTS Policy informing the HTTP client how long to cache the HTTPS only policy and whether this applies to subdomains."
+						},
+						{
+							"name": "Transfer-Encoding",
+							"key": "Transfer-Encoding",
+							"value": "chunked",
+							"description": "The form of encoding used to safely transfer the entity to the user. Currently defined methods are: chunked, compress, deflate, gzip, identity."
+						},
+						{
+							"name": "Vary",
+							"key": "Vary",
+							"value": "Accept, Accept-Encoding",
+							"description": "Tells downstream proxies how to match future request headers to decide whether the cached response can be used rather than requesting a fresh one from the origin server."
+						},
+						{
+							"name": "X-Content-Type-Options",
+							"key": "X-Content-Type-Options",
+							"value": "nosniff",
+							"description": "The only defined value, \"nosniff\", prevents Internet Explorer from MIME-sniffing a response away from the declared content-type"
+						},
+						{
+							"name": "X-Frame-Options",
+							"key": "X-Frame-Options",
+							"value": "deny",
+							"description": "Clickjacking protection: \"deny\" - no rendering within a frame, \"sameorigin\" - no rendering if origin mismatch"
+						},
+						{
+							"name": "X-GitHub-Media-Type",
+							"key": "X-GitHub-Media-Type",
+							"value": "github.v3",
+							"description": "Custom header"
+						},
+						{
+							"name": "X-GitHub-Request-Id",
+							"key": "X-GitHub-Request-Id",
+							"value": "36EC9C51:1805C:2E624DC:56EE01D1",
+							"description": "Custom header"
+						},
+						{
+							"name": "X-RateLimit-Limit",
+							"key": "X-RateLimit-Limit",
+							"value": "60",
+							"description": "Custom header"
+						},
+						{
+							"name": "X-RateLimit-Remaining",
+							"key": "X-RateLimit-Remaining",
+							"value": "38",
+							"description": "Custom header"
+						},
+						{
+							"name": "X-RateLimit-Reset",
+							"key": "X-RateLimit-Reset",
+							"value": "1458439782",
+							"description": "Custom header"
+						},
+						{
+							"name": "X-Served-By",
+							"key": "X-Served-By",
+							"value": "2c18a09f3ac5e4dd1e004af7c5a94769",
+							"description": "Custom header"
+						},
+						{
+							"name": "X-XSS-Protection",
+							"key": "X-XSS-Protection",
+							"value": "1; mode=block",
+							"description": "Cross-site scripting (XSS) filter"
+						}
+					],
+					"cookies": [],
+					"mime": "",
+					"text": "{\n  \"login\": \"Scott-Meyer\",\n  \"id\": 17101862,\n  \"avatar_url\": \"https://avatars.githubusercontent.com/u/17101862?v=3\",\n  \"gravatar_id\": \"\",\n  \"url\": \"https://api.github.com/users/Scott-Meyer\",\n  \"html_url\": \"https://github.com/Scott-Meyer\",\n  \"followers_url\": \"https://api.github.com/users/Scott-Meyer/followers\",\n  \"following_url\": \"https://api.github.com/users/Scott-Meyer/following{/other_user}\",\n  \"gists_url\": \"https://api.github.com/users/Scott-Meyer/gists{/gist_id}\",\n  \"starred_url\": \"https://api.github.com/users/Scott-Meyer/starred{/owner}{/repo}\",\n  \"subscriptions_url\": \"https://api.github.com/users/Scott-Meyer/subscriptions\",\n  \"organizations_url\": \"https://api.github.com/users/Scott-Meyer/orgs\",\n  \"repos_url\": \"https://api.github.com/users/Scott-Meyer/repos\",\n  \"events_url\": \"https://api.github.com/users/Scott-Meyer/events{/privacy}\",\n  \"received_events_url\": \"https://api.github.com/users/Scott-Meyer/received_events\",\n  \"type\": \"User\",\n  \"site_admin\": false,\n  \"name\": \"Scott Meyer\",\n  \"company\": null,\n  \"blog\": null,\n  \"location\": \"Denver, Colorado, UnitedStates\",\n  \"email\": null,\n  \"hireable\": null,\n  \"bio\": null,\n  \"public_repos\": 3,\n  \"public_gists\": 0,\n  \"followers\": 0,\n  \"following\": 0,\n  \"created_at\": \"2016-02-06T20:09:54Z\",\n  \"updated_at\": \"2016-03-09T19:34:18Z\"\n}\n",
+					"language": "javascript",
+					"rawDataType": "text",
+					"previewType": "html",
+					"searchResultScrolledTo": -1,
+					"forceNoPretty": false,
+					"write": true,
+					"empty": false,
+					"failed": false,
+					"state": {
+						"size": "normal"
+					},
+					"id": "712e55ed-bbae-cb55-ca33-280264f4655e",
+					"name": "Correct Oauth",
+					"request": {
+						"url": "http://flyingpenguin-test.apigee.net/homework3/oauth/users/scott-meyer",
+						"headers": [
+							{
+								"key": "Authorization",
+								"value": "Bearer 0XNcQrp4OeClDJBJSiLXoVjWLBL9",
+								"type": "text",
+								"enabled": true
+							},
+							{
+								"key": "Cache-Control",
+								"name": "Cache-Control",
+								"value": "no-cache"
+							},
+							{
+								"key": "Postman-Token",
+								"name": "Postman-Token",
+								"value": "5480d568-4607-3e56-6f5e-4ff0c8365c64"
+							}
+						],
+						"data": "",
+						"method": "GET",
+						"dataMode": "params"
+					}
+				},
+				{
+					"status": "",
+					"responseCode": {
+						"code": 500,
+						"name": "Unauthorized",
+						"detail": "A generic error message, given when no more specific message is suitable."
+					},
+					"time": 69,
+					"headers": [
+						{
+							"name": "Connection",
+							"key": "Connection",
+							"value": "keep-alive",
+							"description": "Options that are desired for the connection"
+						},
+						{
+							"name": "Content-Length",
+							"key": "Content-Length",
+							"value": "31",
+							"description": "The length of the response body in octets (8-bit bytes)"
+						},
+						{
+							"name": "Content-Type",
+							"key": "Content-Type",
+							"value": "application/json",
+							"description": "The mime type of this content"
+						},
+						{
+							"name": "Date",
+							"key": "Date",
+							"value": "Sun, 20 Mar 2016 01:51:00 GMT",
+							"description": "The date and time that the message was sent"
+						},
+						{
+							"name": "Server",
+							"key": "Server",
+							"value": "Apigee Router",
+							"description": "A name for the server"
+						},
+						{
+							"name": "WWW-Authenticate",
+							"key": "WWW-Authenticate",
+							"value": "Bearer realm=\"null\",error='invalid_token\",error_description='oauth.v2.InvalidAccessToken: Invalid access token\"",
+							"description": "Indicates the authentication scheme that should be used to access the requested entity."
+						}
+					],
+					"cookies": [],
+					"mime": "",
+					"text": "Error: No Oauth Token Provided.",
+					"language": "javascript",
+					"rawDataType": "text",
+					"previewType": "html",
+					"searchResultScrolledTo": -1,
+					"forceNoPretty": false,
+					"write": true,
+					"empty": false,
+					"failed": false,
+					"state": {
+						"size": "normal"
+					},
+					"id": "07dff092-eb65-3faa-4d95-74eb59fc2fe7",
+					"name": "Oauth, without key (switch to html or text)",
+					"request": {
+						"url": "http://flyingpenguin-test.apigee.net/homework3/oauth/users/scott-meyer",
+						"headers": [
+							{
+								"key": "Cache-Control",
+								"name": "Cache-Control",
+								"value": "no-cache"
+							},
+							{
+								"key": "Postman-Token",
+								"name": "Postman-Token",
+								"value": "c9a5af90-e17d-ae05-fe54-9ff18f331764"
+							}
+						],
+						"data": "",
+						"method": "GET",
+						"dataMode": "params"
+					}
+				},
+				{
+					"status": "",
+					"responseCode": {
+						"code": 401,
+						"name": "Unauthorized",
+						"detail": "Similar to 403 Forbidden, but specifically for use when authentication is possible but has failed or not yet been provided. The response must include a WWW-Authenticate header field containing a challenge applicable to the requested resource."
+					},
+					"time": 88,
+					"headers": [
+						{
+							"name": "Connection",
+							"key": "Connection",
+							"value": "keep-alive",
+							"description": "Options that are desired for the connection"
+						},
+						{
+							"name": "Content-Length",
+							"key": "Content-Length",
+							"value": "29",
+							"description": "The length of the response body in octets (8-bit bytes)"
+						},
+						{
+							"name": "Content-Type",
+							"key": "Content-Type",
+							"value": "application/json",
+							"description": "The mime type of this content"
+						},
+						{
+							"name": "Date",
+							"key": "Date",
+							"value": "Sun, 20 Mar 2016 01:51:55 GMT",
+							"description": "The date and time that the message was sent"
+						},
+						{
+							"name": "Server",
+							"key": "Server",
+							"value": "Apigee Router",
+							"description": "A name for the server"
+						},
+						{
+							"name": "WWW-Authenticate",
+							"key": "WWW-Authenticate",
+							"value": "Bearer realm=\"null\",error='invalid_token\",error_description='keymanagement.service.invalid_access_token: Invalid Access Token\"",
+							"description": "Indicates the authentication scheme that should be used to access the requested entity."
+						}
+					],
+					"cookies": [],
+					"mime": "",
+					"text": "Error:Oauth Token Is Invalid.",
+					"language": "javascript",
+					"rawDataType": "text",
+					"previewType": "html",
+					"searchResultScrolledTo": -1,
+					"forceNoPretty": false,
+					"write": true,
+					"empty": false,
+					"failed": false,
+					"state": {
+						"size": "normal"
+					},
+					"id": "d1bb86f3-e779-9b67-934f-8b6d2b047733",
+					"name": "Incorrect Oauth (switch to HTML or Text)",
+					"request": {
+						"url": "http://flyingpenguin-test.apigee.net/homework3/oauth/users/scott-meyer",
+						"headers": [
+							{
+								"key": "Authorization",
+								"value": "Bearer 0XNcQrp4OeClDJBJSiLXoVjWLBL9WRONG",
+								"type": "text",
+								"enabled": true
+							},
+							{
+								"key": "Cache-Control",
+								"name": "Cache-Control",
+								"value": "no-cache"
+							},
+							{
+								"key": "Postman-Token",
+								"name": "Postman-Token",
+								"value": "7ab8ef4f-c7e6-73cd-ab5e-bd3864f94f8c"
+							}
+						],
+						"data": "",
+						"method": "GET",
+						"dataMode": "params"
+					}
+				},
+				{
+					"status": "",
+					"responseCode": {
+						"code": 200,
+						"name": "OK",
+						"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+					},
+					"time": 123,
+					"headers": [
+						{
+							"name": "Connection",
+							"key": "Connection",
+							"value": "keep-alive",
+							"description": "Options that are desired for the connection"
+						},
+						{
+							"name": "Content-Length",
+							"key": "Content-Length",
+							"value": "489",
+							"description": "The length of the response body in octets (8-bit bytes)"
+						},
+						{
+							"name": "Content-Type",
+							"key": "Content-Type",
+							"value": "application/json",
+							"description": "The mime type of this content"
+						},
+						{
+							"name": "Date",
+							"key": "Date",
+							"value": "Sun, 20 Mar 2016 01:53:30 GMT",
+							"description": "The date and time that the message was sent"
+						},
+						{
+							"name": "Server",
+							"key": "Server",
+							"value": "Apigee Router",
+							"description": "A name for the server"
+						}
+					],
+					"cookies": [],
+					"mime": "",
+					"text": "{\n  \"issued_at\" : \"1458438810254\",\n  \"application_name\" : \"d1284c24-0a38-4ca8-b65a-6b5b628e2f8c\",\n  \"scope\" : \"\",\n  \"status\" : \"approved\",\n  \"api_product_list\" : \"[github api]\",\n  \"expires_in\" : \"3599\",\n  \"developer.email\" : \"scott.r.meyer@gmail.com\",\n  \"token_type\" : \"BearerToken\",\n  \"client_id\" : \"EoHT9DUGHA8cyaEctaqjOjQNllSJkA4n\",\n  \"access_token\" : \"N23R9mGBIEnfjn9q2G5DTGHyFciK\",\n  \"organization_name\" : \"flyingpenguin\",\n  \"refresh_token_expires_in\" : \"0\",\n  \"refresh_count\" : \"0\"\n}",
+					"language": "javascript",
+					"rawDataType": "text",
+					"previewType": "html",
+					"searchResultScrolledTo": -1,
+					"forceNoPretty": false,
+					"write": true,
+					"empty": false,
+					"failed": false,
+					"state": {
+						"size": "normal"
+					},
+					"id": "0a9ed3f9-c4c5-bb5d-2b01-30324ac0f53e",
+					"name": "Get Oauth Token",
+					"request": {
+						"url": "https://flyingpenguin-test.apigee.net/oauth/client_credential/accesstoken?grant_type=client_credentials",
+						"headers": [
+							{
+								"key": "Cache-Control",
+								"name": "Cache-Control",
+								"value": "no-cache"
+							},
+							{
+								"key": "Postman-Token",
+								"name": "Postman-Token",
+								"value": "fb269210-b7e4-46a4-4fdd-3151756d047b"
+							},
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"value": "application/x-www-form-urlencoded"
+							}
+						],
+						"data": [
+							{
+								"key": "client_id",
+								"value": "EoHT9DUGHA8cyaEctaqjOjQNllSJkA4n"
+							},
+							{
+								"key": "client_secret",
+								"value": "0OSt6LivA600UCqf"
+							}
+						],
+						"method": "POST",
+						"dataMode": "params"
+					}
+				},
+				{
+					"status": "",
+					"responseCode": {
+						"code": 500,
+						"name": "Unauthorized",
+						"detail": "A generic error message, given when no more specific message is suitable."
+					},
+					"time": 237,
+					"headers": [
+						{
+							"name": "Connection",
+							"key": "Connection",
+							"value": "keep-alive",
+							"description": "Options that are desired for the connection"
+						},
+						{
+							"name": "Content-Length",
+							"key": "Content-Length",
+							"value": "30",
+							"description": "The length of the response body in octets (8-bit bytes)"
+						},
+						{
+							"name": "Content-Type",
+							"key": "Content-Type",
+							"value": "application/json",
+							"description": "The mime type of this content"
+						},
+						{
+							"name": "Date",
+							"key": "Date",
+							"value": "Sun, 20 Mar 2016 01:57:27 GMT",
+							"description": "The date and time that the message was sent"
+						},
+						{
+							"name": "Server",
+							"key": "Server",
+							"value": "Apigee Router",
+							"description": "A name for the server"
+						},
+						{
+							"name": "WWW-Authenticate",
+							"key": "WWW-Authenticate",
+							"value": "Bearer realm=\"null\",error='invalid_token\",error_description='keymanagement.service.access_token_expired: Access Token expired\"",
+							"description": "Indicates the authentication scheme that should be used to access the requested entity."
+						}
+					],
+					"cookies": [],
+					"mime": "",
+					"text": "Error: Oauth Token Is Expired.",
+					"language": "javascript",
+					"rawDataType": "text",
+					"previewType": "html",
+					"searchResultScrolledTo": -1,
+					"forceNoPretty": false,
+					"write": true,
+					"empty": false,
+					"failed": false,
+					"state": {
+						"size": "normal"
+					},
+					"id": "b7b3acc1-b194-2ce9-7e8c-dfd90c4d4c57",
+					"name": "Expired Token",
+					"request": {
+						"url": "http://flyingpenguin-test.apigee.net/homework3/oauth/users/scott-meyer",
+						"headers": [
+							{
+								"key": "Authorization",
+								"value": "Bearer vkKyMzr6QXhUjGB3jJRHPAX1nJq6",
+								"type": "text",
+								"enabled": true
+							},
+							{
+								"key": "Cache-Control",
+								"name": "Cache-Control",
+								"value": "no-cache"
+							},
+							{
+								"key": "Postman-Token",
+								"name": "Postman-Token",
+								"value": "18500504-35cd-891f-f25c-589e85206f08"
+							}
+						],
+						"data": [
+							{
+								"key": "client_id",
+								"value": "EoHT9DUGHA8cyaEctaqjOjQNllSJkA4n"
+							},
+							{
+								"key": "client_secret",
+								"value": "0OSt6LivA600UCqf"
+							}
+						],
+						"method": "GET",
+						"dataMode": "params"
+					}
+				}
+			]
+		}
+	]
+}
