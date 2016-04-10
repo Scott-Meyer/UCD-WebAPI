@@ -1,0 +1,11 @@
+{
+  "name": "Web-API-Assignment-4",
+  "version": "0.0.0",
+  "description": "Homework 4 for the web-api class",
+  "main": "server-usergrid.js",
+  "dependencies":{
+    "express":"x.x.x",
+    "body-parser":"x.x.x",
+    "usergrid":"x.x.x"
+  }
+}
