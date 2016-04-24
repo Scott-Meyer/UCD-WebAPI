@@ -3,9 +3,11 @@
 	"name": "Homework5",
 	"description": "",
 	"order": [
-		"24112dcf-3efd-51c9-aa59-e7fb75428ee2",
 		"1124edfa-e0b8-9c08-0794-e41f14d6a46c",
-		"7bca96f0-9375-2e10-3881-8a615cf54c47"
+		"7bca96f0-9375-2e10-3881-8a615cf54c47",
+		"dd17baa6-1497-baef-3242-a720bb466082",
+		"e0d003b7-d2b7-bebd-2944-c3b2c6a51a0f",
+		"ae7b5adc-10e2-88b9-9cb3-73a70936a6ed"
 	],
 	"folders": [],
 	"timestamp": 1460257355411,
@@ -99,179 +101,6 @@
 					"name": "here.",
 					"request": {
 						"url": "http://flyingpenguin-test.apigee.net/hw4/movie?title=the matrix&reviews=true",
-						"headers": [],
-						"data": null,
-						"method": "GET",
-						"dataMode": "params"
-					}
-				}
-			],
-			"tests": null,
-			"currentHelper": "normal",
-			"helperAttributes": {}
-		},
-		{
-			"id": "24112dcf-3efd-51c9-aa59-e7fb75428ee2",
-			"headers": "",
-			"url": "",
-			"pathVariables": {},
-			"preRequestScript": null,
-			"method": "GET",
-			"collectionId": "c6ae1011-e5a5-dc0d-5fe6-b12fb7d423ee",
-			"data": null,
-			"dataMode": "params",
-			"name": "HW4, Responces",
-			"description": "All things saved under this.",
-			"descriptionFormat": "html",
-			"time": 1460257420743,
-			"version": 2,
-			"responses": [
-				{
-					"status": "",
-					"responseCode": {
-						"code": 200,
-						"name": "OK",
-						"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
-					},
-					"time": 312,
-					"headers": [
-						{
-							"name": "Connection",
-							"key": "Connection",
-							"value": "keep-alive",
-							"description": "Options that are desired for the connection"
-						},
-						{
-							"name": "Content-Length",
-							"key": "Content-Length",
-							"value": "132",
-							"description": "The length of the response body in octets (8-bit bytes)"
-						},
-						{
-							"name": "Content-Type",
-							"key": "Content-Type",
-							"value": "application/json; charset=utf-8",
-							"description": "The mime type of this content"
-						},
-						{
-							"name": "Date",
-							"key": "Date",
-							"value": "Sun, 10 Apr 2016 03:04:05 GMT",
-							"description": "The date and time that the message was sent"
-						},
-						{
-							"name": "ETag",
-							"key": "ETag",
-							"value": "\"306256990\"",
-							"description": "An identifier for a specific version of a resource, often a message digest"
-						},
-						{
-							"name": "Server",
-							"key": "Server",
-							"value": "Apigee Router",
-							"description": "A name for the server"
-						},
-						{
-							"name": "X-Powered-By",
-							"key": "X-Powered-By",
-							"value": "Express",
-							"description": "Specifies the technology (ASP.NET, PHP, JBoss, e.g.) supporting the web application (version details are often in X-Runtime, X-Version, or X-AspNet-Version)"
-						}
-					],
-					"cookies": [],
-					"mime": "",
-					"text": "{\n  \"movies\": [\n    \"Ex Machina\",\n    \"I, Robot\",\n    \"Terminator 2: Judgment Day\",\n    \"The Matrix\",\n    \"The Imitation Game\"\n  ]\n}",
-					"language": "javascript",
-					"rawDataType": "text",
-					"previewType": "html",
-					"searchResultScrolledTo": -1,
-					"forceNoPretty": false,
-					"write": true,
-					"empty": false,
-					"failed": false,
-					"state": {
-						"size": "normal"
-					},
-					"id": "53e2198f-73a0-1e33-940b-c77d22b8a6f1",
-					"name": "All Movies",
-					"request": {
-						"url": "http://flyingpenguin-test.apigee.net/hw4/movies",
-						"headers": [],
-						"data": null,
-						"method": "GET",
-						"dataMode": "params"
-					}
-				},
-				{
-					"status": "",
-					"responseCode": {
-						"code": 200,
-						"name": "OK",
-						"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
-					},
-					"time": 186,
-					"headers": [
-						{
-							"name": "Connection",
-							"key": "Connection",
-							"value": "keep-alive",
-							"description": "Options that are desired for the connection"
-						},
-						{
-							"name": "Content-Length",
-							"key": "Content-Length",
-							"value": "133",
-							"description": "The length of the response body in octets (8-bit bytes)"
-						},
-						{
-							"name": "Content-Type",
-							"key": "Content-Type",
-							"value": "application/json; charset=utf-8",
-							"description": "The mime type of this content"
-						},
-						{
-							"name": "Date",
-							"key": "Date",
-							"value": "Sun, 10 Apr 2016 03:04:28 GMT",
-							"description": "The date and time that the message was sent"
-						},
-						{
-							"name": "ETag",
-							"key": "ETag",
-							"value": "\"-1095687979\"",
-							"description": "An identifier for a specific version of a resource, often a message digest"
-						},
-						{
-							"name": "Server",
-							"key": "Server",
-							"value": "Apigee Router",
-							"description": "A name for the server"
-						},
-						{
-							"name": "X-Powered-By",
-							"key": "X-Powered-By",
-							"value": "Express",
-							"description": "Specifies the technology (ASP.NET, PHP, JBoss, e.g.) supporting the web application (version details are often in X-Runtime, X-Version, or X-AspNet-Version)"
-						}
-					],
-					"cookies": [],
-					"mime": "",
-					"text": "{\n  \"title\": \"The Matrix\",\n  \"year\": \"1999\",\n  \"actors\": [\n    \"Keanu Reeves\",\n    \"Carrie-Anne Moss\",\n    \"Laurence Fishburne\"\n  ]\n}",
-					"language": "javascript",
-					"rawDataType": "text",
-					"previewType": "html",
-					"searchResultScrolledTo": -1,
-					"forceNoPretty": false,
-					"write": true,
-					"empty": false,
-					"failed": false,
-					"state": {
-						"size": "normal"
-					},
-					"id": "a16809d6-9a9c-04a5-3328-7988ef29c715",
-					"name": "Get A Movie",
-					"request": {
-						"url": "http://flyingpenguin-test.apigee.net/hw4/movie?title=the matrix",
 						"headers": [],
 						"data": null,
 						"method": "GET",
@@ -379,6 +208,272 @@
 			"tests": null,
 			"currentHelper": "normal",
 			"helperAttributes": {}
+		},
+		{
+			"id": "ae7b5adc-10e2-88b9-9cb3-73a70936a6ed",
+			"headers": "",
+			"url": "https://api.usergrid.com/flyingpenguin/sandbox/moviereviews?ql=Name='The Imitation Game'",
+			"pathVariables": {},
+			"preRequestScript": null,
+			"method": "GET",
+			"collectionId": "c6ae1011-e5a5-dc0d-5fe6-b12fb7d423ee",
+			"data": null,
+			"dataMode": "params",
+			"name": "get review from BaaS",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1461476132894,
+			"version": 2,
+			"responses": [
+				{
+					"status": "",
+					"responseCode": {
+						"code": 200,
+						"name": "OK",
+						"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+					},
+					"time": 94,
+					"headers": [
+						{
+							"name": "Connection",
+							"key": "Connection",
+							"value": "keep-alive",
+							"description": "Options that are desired for the connection"
+						},
+						{
+							"name": "Content-Length",
+							"key": "Content-Length",
+							"value": "921",
+							"description": "The length of the response body in octets (8-bit bytes)"
+						},
+						{
+							"name": "Content-Type",
+							"key": "Content-Type",
+							"value": "application/json",
+							"description": "The mime type of this content"
+						},
+						{
+							"name": "Date",
+							"key": "Date",
+							"value": "Sun, 24 Apr 2016 05:35:22 GMT",
+							"description": "The date and time that the message was sent"
+						},
+						{
+							"name": "Server",
+							"key": "Server",
+							"value": "Apache-Coyote/1.1",
+							"description": "A name for the server"
+						}
+					],
+					"cookies": [],
+					"mime": "",
+					"text": "{\n  \"action\" : \"get\",\n  \"application\" : \"090084ca-e33c-11e5-b8c8-893e0724b7f0\",\n  \"params\" : {\n    \"ql\" : [ \"Name='The Imitation Game'\" ]\n  },\n  \"path\" : \"/moviereviews\",\n  \"uri\" : \"https://api.usergrid.com/flyingpenguin/sandbox/moviereviews\",\n  \"entities\" : [ {\n    \"uuid\" : \"11c624da-09ce-11e6-90de-0b065e31fd98\",\n    \"type\" : \"moviereview\",\n    \"name\" : \"The Imitation Game\",\n    \"created\" : 1461469134749,\n    \"modified\" : 1461469134749,\n    \"metadata\" : {\n      \"path\" : \"/moviereviews/11c624da-09ce-11e6-90de-0b065e31fd98\"\n    },\n    \"reviews\" : [ {\n      \"name\" : \"Scott Meyer\",\n      \"quote\" : \"Just. Watch. It. Everyone.\",\n      \"rating\" : \"5\"\n    }, {\n      \"name\" : \"Sean Meyer\",\n      \"quote\" : \"Amazing, spock knocks it out of the park\",\n      \"rating\" : \"5\"\n    } ]\n  } ],\n  \"timestamp\" : 1461476122479,\n  \"duration\" : 16,\n  \"organization\" : \"flyingpenguin\",\n  \"applicationName\" : \"sandbox\",\n  \"count\" : 1\n}",
+					"language": "javascript",
+					"rawDataType": "text",
+					"previewType": "html",
+					"searchResultScrolledTo": -1,
+					"forceNoPretty": false,
+					"write": true,
+					"empty": false,
+					"failed": false,
+					"state": {
+						"size": "normal"
+					},
+					"id": "173c762a-bf1f-a7f3-2baa-bc634353aefa",
+					"name": "here.",
+					"request": {
+						"url": "https://api.usergrid.com/flyingpenguin/sandbox/moviereviews?ql=Name='The Imitation Game'",
+						"headers": [],
+						"data": null,
+						"method": "GET",
+						"dataMode": "params"
+					}
+				}
+			],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		},
+		{
+			"id": "dd17baa6-1497-baef-3242-a720bb466082",
+			"headers": "",
+			"url": "http://flyingpenguin-test.apigee.net/hw4/movie?title=bad entry",
+			"pathVariables": {},
+			"preRequestScript": null,
+			"method": "GET",
+			"collectionId": "c6ae1011-e5a5-dc0d-5fe6-b12fb7d423ee",
+			"data": null,
+			"dataMode": "params",
+			"name": "get movie bad",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1461475956095,
+			"version": 2,
+			"responses": [
+				{
+					"status": "",
+					"responseCode": {
+						"code": 404,
+						"name": "Not Found",
+						"detail": "The requested resource could not be found but may be available again in the future. Subsequent requests by the client are permissible."
+					},
+					"time": 314,
+					"headers": [
+						{
+							"name": "Connection",
+							"key": "Connection",
+							"value": "keep-alive",
+							"description": "Options that are desired for the connection"
+						},
+						{
+							"name": "Content-Length",
+							"key": "Content-Length",
+							"value": "19",
+							"description": "The length of the response body in octets (8-bit bytes)"
+						},
+						{
+							"name": "Content-Type",
+							"key": "Content-Type",
+							"value": "text/html; charset=utf-8",
+							"description": "The mime type of this content"
+						},
+						{
+							"name": "Date",
+							"key": "Date",
+							"value": "Sun, 24 Apr 2016 05:32:26 GMT",
+							"description": "The date and time that the message was sent"
+						},
+						{
+							"name": "ETag",
+							"key": "ETag",
+							"value": "W/\"13-BzDVA+k7OhUAXQPHbwSk4w\"",
+							"description": "An identifier for a specific version of a resource, often a message digest"
+						},
+						{
+							"name": "Server",
+							"key": "Server",
+							"value": "Apigee Router",
+							"description": "A name for the server"
+						},
+						{
+							"name": "X-Powered-By",
+							"key": "X-Powered-By",
+							"value": "Express",
+							"description": "Specifies the technology (ASP.NET, PHP, JBoss, e.g.) supporting the web application (version details are often in X-Runtime, X-Version, or X-AspNet-Version)"
+						}
+					],
+					"cookies": [],
+					"mime": "",
+					"text": "no such movie found",
+					"language": "html",
+					"rawDataType": "text",
+					"previewType": "html",
+					"searchResultScrolledTo": -1,
+					"forceNoPretty": false,
+					"write": true,
+					"empty": false,
+					"failed": false,
+					"state": {
+						"size": "normal"
+					},
+					"id": "4c715403-6680-844b-b241-e8a3a5900788",
+					"name": "here",
+					"request": {
+						"url": "http://flyingpenguin-test.apigee.net/hw4/movie?title=bad entry",
+						"headers": [],
+						"data": null,
+						"method": "GET",
+						"dataMode": "params"
+					}
+				}
+			],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		},
+		{
+			"id": "e0d003b7-d2b7-bebd-2944-c3b2c6a51a0f",
+			"headers": "",
+			"url": "https://api.usergrid.com/flyingpenguin/sandbox/movies?ql=Name='The Imitation Game'",
+			"preRequestScript": null,
+			"pathVariables": {},
+			"method": "GET",
+			"data": null,
+			"dataMode": "params",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1461476116201,
+			"name": "get movie from BaaS",
+			"description": "",
+			"collectionId": "c6ae1011-e5a5-dc0d-5fe6-b12fb7d423ee",
+			"responses": [
+				{
+					"status": "",
+					"responseCode": {
+						"code": 200,
+						"name": "OK",
+						"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+					},
+					"time": 315,
+					"headers": [
+						{
+							"name": "Connection",
+							"key": "Connection",
+							"value": "keep-alive",
+							"description": "Options that are desired for the connection"
+						},
+						{
+							"name": "Content-Length",
+							"key": "Content-Length",
+							"value": "796",
+							"description": "The length of the response body in octets (8-bit bytes)"
+						},
+						{
+							"name": "Content-Type",
+							"key": "Content-Type",
+							"value": "application/json",
+							"description": "The mime type of this content"
+						},
+						{
+							"name": "Date",
+							"key": "Date",
+							"value": "Sun, 24 Apr 2016 05:33:47 GMT",
+							"description": "The date and time that the message was sent"
+						},
+						{
+							"name": "Server",
+							"key": "Server",
+							"value": "Apache-Coyote/1.1",
+							"description": "A name for the server"
+						}
+					],
+					"cookies": [],
+					"mime": "",
+					"text": "{\n  \"action\" : \"get\",\n  \"application\" : \"090084ca-e33c-11e5-b8c8-893e0724b7f0\",\n  \"params\" : {\n    \"ql\" : [ \"Name='The Imitation Game'\" ]\n  },\n  \"path\" : \"/movies\",\n  \"uri\" : \"https://api.usergrid.com/flyingpenguin/sandbox/movies\",\n  \"entities\" : [ {\n    \"uuid\" : \"5239e0ea-fec7-11e5-b974-13b3c27072a9\",\n    \"type\" : \"movie\",\n    \"name\" : \"The Imitation Game\",\n    \"created\" : 1460256773614,\n    \"modified\" : 1460256773614,\n    \"actors\" : [ \"Benedict Cumberbatch\", \"Keira Knightley\", \"Matthew William Goode\" ],\n    \"metadata\" : {\n      \"path\" : \"/movies/5239e0ea-fec7-11e5-b974-13b3c27072a9\"\n    },\n    \"title\" : \"The Imitation Game\",\n    \"year\" : \"2015\"\n  } ],\n  \"timestamp\" : 1461476027052,\n  \"duration\" : 15,\n  \"organization\" : \"flyingpenguin\",\n  \"applicationName\" : \"sandbox\",\n  \"count\" : 1\n}",
+					"language": "javascript",
+					"rawDataType": "text",
+					"previewType": "html",
+					"searchResultScrolledTo": -1,
+					"forceNoPretty": false,
+					"write": true,
+					"empty": false,
+					"failed": false,
+					"state": {
+						"size": "normal"
+					},
+					"id": "07fbe5d0-631b-a8d6-1438-ed969213bad0",
+					"name": "hrere.",
+					"request": {
+						"url": "https://api.usergrid.com/flyingpenguin/sandbox/movies?ql=Name='The Imitation Game'",
+						"headers": [],
+						"data": null,
+						"method": "GET",
+						"dataMode": "params"
+					}
+				}
+			]
 		}
 	]
 }
